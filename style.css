@@ -1,0 +1,113 @@
+@charset 'UTF-8';
+
+
+@font-face {
+    font-family:"android" ;
+    src: url(fontes/idroid.otf);
+    
+}
+
+body{
+    
+    background-color: #96C996;
+}
+
+header {
+
+    background-image: linear-gradient(to bottom, #96C996, #2F732F, #114711);
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    text-align: center;
+    padding: 10px;
+
+    
+
+    color: rgba(255, 251, 251, 0.87);
+
+
+}
+
+h1#principalTema{
+    font-family: "android";
+    text-align: left;
+}
+
+h1#querAprender{
+    text-align: left;
+    background-color: #2F732F;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+h2.tema{
+    text-align: left;
+}
+
+nav{
+    text-align: left;
+}
+
+h3{
+    text-align: left;
+    background-color: #2F732F;
+}
+
+p{
+    text-indent: 20px;
+    
+}
+
+a.menu{
+    color: #f8f8f8;
+    padding-right: 15px;
+}
+
+a{
+    font-weight: bold;
+    color: #2F732F;
+}
+
+main{
+    align-self: center;
+    margin: auto; 
+    max-width: 1200px;     
+    padding: 10px;    
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+article.aprenderMais{
+    background-color: #2f732f71;
+    padding-bottom: 100px;
+}
+
+ol#list{
+    text-align: left;
+    width: 200px;
+    height: auto;
+}
+
+footer{
+    text-align: center;
+    background: rgb(0, 80, 0);
+    color: white;
+    font: normal normal 6px Arial,sans-serif;
+    padding: 1px;
+}
+
+div{
+    text-align: center;
+    max-width: 1200px;
+    background-color: #144614;
+}
+
+h2.tema{ 
+    padding: 2px;
+    color: #336433;
+    font-family: "android";
+    background-image: linear-gradient(to right, rgba(10, 139, 10, 0.411), white);
+}
